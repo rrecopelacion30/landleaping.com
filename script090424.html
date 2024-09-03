@@ -1,0 +1,62 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+<script>
+	// Top Menu
+	$(document).ready(function(){
+		// Mobile Header Slide down script
+		var mobileSliders = $(".mobile-slider-button"), j;
+
+		for(j=0; j < mobileSliders.length; j++) {
+			mobileSliders[j].onclick = function() {
+				// If top menu item has class menu-selected
+				if (!$(this).is(".menu-selected")) {
+					$(this).toggleClass("menu-selected");
+					// If that top menu button is also mobile-search-col
+					if ($(this).is(".mobile-search-col")) {
+						$(".search-row").toggleClass("open");
+						$(".menu-row").removeClass("open");
+						$(".mobile-menu-col").removeClass("menu-selected");
+						$(".slider-close").addClass("close-display");
+					}
+					else if ($(this).is(".mobile-menu-col")) {
+						$(".menu-row").toggleClass("open");
+						$(".search-row").removeClass("open");
+						$(".mobile-search-col").removeClass("menu-selected");
+						$(".slider-close").addClass("close-display");
+					}
+				}
+				else if ($(this).is(".menu-selected"))	{
+					$(this).removeClass("menu-selected");
+					$(".slider-close").removeClass("close-display");
+					if ($(this).is(".mobile-search-col")) {
+						$(".search-row").removeClass("open");
+					}
+					else if ($(this).is(".mobile-menu-col")) {
+						$(".menu-row").removeClass("open");
+					}
+				}
+			}
+		}
+
+		// Close everything when the close arrow is clicked
+		$(".slider-close").click(function(){
+			$(".slider-tab").removeClass("open");
+			$(".mobile-slider-button").removeClass("menu-selected");
+			$(this).removeClass("close-display");
+		});
+
+		// Close on off click
+		$(document).on('click', function(event){
+			if(!$(event.target).closest(".mobile-header-click").length) {
+				$(".slider-tab").removeClass("open");
+				$(".mobile-slider-button").removeClass("menu-selected");
+				$(".slider-close").removeClass("close-display");
+			}
+		})
+
+	});
+
+</script>
+
+<script type="text/javascript"> (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=!0, e.src="//staticw2.yotpo.com/6YH7SQ6eCVDyaSUHKHMKpXxBA6Lj2k3l9rqpsAsb/widget.js";var t=document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e,t)})(); </script>

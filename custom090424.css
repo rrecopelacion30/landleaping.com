@@ -1,0 +1,169 @@
+#mobile-header .mobile-logo {
+	max-width: 110px;
+}
+
+/* Updated site colors to match logo - Old hex #005A2B */
+#header-secondary-wrap {
+    background: #081863;
+    padding: 0 10px;
+}
+
+#header-main-wrap #header-main #meta-nav-wrap .cart-button-module .cart-component .cart-button {
+    background: #081863;
+}
+
+#header-secondary-wrap .infinite-menu {
+    background: #081863;
+}
+
+#hero-wrap #search-tabs-nav .nav-item .nav-link {
+    display: block;
+    background: #081863;
+}
+
+.featured-products-module .product-wrapper-link .product-details-link {
+    background-color: #081863;
+    color: #fff!important;
+}
+
+.popular-wrap .popular .base-btn {
+    background: #081863;
+    color: white;
+}
+
+.categories-wrap .categories-body .categories-list .links-list-module .heading {
+    background: #081863;
+}
+
+.popular-wrap .popular .popular-list .popular-list-item a .popular-list-title-wrap:before {
+    background: #081863;
+}
+
+.popular-wrap .popular .popular-list .popular-list-item a .popular-list-title-wrap .sale-popup {
+    color: #081863;
+}
+
+.categories-wrap .categories-button {
+    background: #081863;
+}
+
+#footer-wrap {
+    background: #081863;
+}
+
+#footer-meta {
+    background: #081863;
+}
+
+ .action-button.place-order-button {
+    background: #081863!important;
+}
+
+.policy-link a {
+    background-color: #081863!important;
+}
+
+.login-user-form-submit.block-button.btn.login-user-form-submit-btn {
+    background-color: #081863!important;
+    border-color: #081863!important;
+}
+
+.btn-primary {
+    background-color: #081863!important;
+    border-color: #081863!important;
+}
+
+#car-row-custom .model-wrap .vehicle-image.car-image-1 {
+    background-image: url("https://rparts-sites.s3.amazonaws.com/f39b8994141b6a11dbf68ab1cbdde249/design/xe_2.png");
+}
+
+#car-row-custom .model-wrap .vehicle-image.car-image-2 {
+    background-image: url("https://rparts-sites.s3.amazonaws.com/f39b8994141b6a11dbf68ab1cbdde249/design/xf_2.png");
+}
+
+#car-row-custom .model-wrap .vehicle-image.car-image-3 {
+    background-image: url("https://rparts-sites.s3.amazonaws.com/f39b8994141b6a11dbf68ab1cbdde249/design/xj_2.png");
+}
+
+#car-row-custom .model-wrap .vehicle-image.car-image-4 {
+    background-image: url("https://rparts-sites.s3.amazonaws.com/f39b8994141b6a11dbf68ab1cbdde249/design/f-pace_2.png");
+}
+
+#car-row-custom .model-wrap .vehicle-image.car-image-5 {
+    background-image: url("https://rparts-sites.s3.amazonaws.com/f39b8994141b6a11dbf68ab1cbdde249/design/LR_Defender.png");
+}
+
+#car-row-custom .model-wrap .vehicle-image.car-image-8 {
+    background-image: url("https://rparts-sites.s3.amazonaws.com/f39b8994141b6a11dbf68ab1cbdde249/design/range-rover_2.png");
+}
+
+#car-row-custom .model-wrap .vehicle-image.car-image-9 {
+    background-image: url("https://rparts-sites.s3.amazonaws.com/f39b8994141b6a11dbf68ab1cbdde249/design/discovery-sport_2.png");
+}
+
+#car-row-custom .model-wrap .vehicle-image.car-image-10 {
+    background-image: url("https://rparts-sites.s3.amazonaws.com/f39b8994141b6a11dbf68ab1cbdde249/design/range-rover-evoque_2.png");
+}
+
+/* Custom Verbiage - Homepage */
+.custom_verbiage h2 {
+    font-size: 37px!important;
+    text-align: center;
+}
+
+.custom_verbiage p {
+    font-size: 15px!important;
+}
+
+/* Footer */
+#footer-custom .col-md-3 strong.heading {
+	color: #fff!important;
+}
+
+/* Site Wide Banner Padding */
+.page-builder-page-layout .page-builder-layout-section.full-content > .container-wrap {
+	padding: 0px 0px!important;
+}
+
+.promotional-banner-wrap {
+    background: #d31c1c!important;
+    color: #fff;
+}
+
+/* Homepage Updates */
+.site_title h1 {
+	color: #081863!important;
+}
+
+.call-to-action-button {
+    background-color: #ad2924;
+}
+
+a.design-text {
+    background-color: #081863;
+}
+
+
+.text_compliant a {
+    color: #081863!important;
+}
+
+.text_compliant span {
+    border: 2px solid #081863;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: 2px 1px 2px #39393a;
+}
+
+.text_compliant {
+    text-align: center;
+    margin: 3em 0px;
+}
+
+.text_compliant span:hover {
+    background: #081863;
+}
+
+.text_compliant span a:hover {color: #fff!important;}
